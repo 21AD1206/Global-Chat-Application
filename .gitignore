@@ -1,0 +1,16 @@
+# build output
+backend/target/
+frontend/dist/
+
+# dependencies (re-installed with npm install)
+frontend/node_modules/
+
+# local H2 database files
+backend/data/
+
+# logs / IDE
+*.log
+.idea/
+.vscode/
+*.iml
+.DS_Store
